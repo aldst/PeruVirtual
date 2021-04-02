@@ -133,6 +133,16 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cargando_mapa {
+            get {
+                object obj = ResourceManager.GetObject("cargando_mapa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap explorar {
             get {
                 object obj = ResourceManager.GetObject("explorar", resourceCulture);
@@ -256,6 +266,26 @@ namespace PresentationLayer.Properties {
         internal static System.Drawing.Bitmap NazcaSelected {
             get {
                 object obj = ResourceManager.GetObject("NazcaSelected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap obtenido_mapa {
+            get {
+                object obj = ResourceManager.GetObject("obtenido_mapa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap obteniendo_mapa {
+            get {
+                object obj = ResourceManager.GetObject("obteniendo_mapa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -153,8 +153,11 @@ namespace PresentationLayer
                 PictureBox gif = new PictureBox();
                 cargandoForm.Controls.Add(gif);
                 gif.Dock = DockStyle.Fill;
-                gif.Image = Properties.Resources.Mapa_Peru;
+                gif.Image = Properties.Resources.obteniendo_mapa;
+                gif.BackColor = Color.Transparent;
                 gif.SizeMode = PictureBoxSizeMode.StretchImage;
+                cargandoForm.BackColor = Color.AntiqueWhite;
+                cargandoForm.TransparencyKey = Color.AntiqueWhite;
                 cargandoForm.FormBorderStyle = FormBorderStyle.None;
                 cargandoForm.StartPosition = FormStartPosition.CenterScreen;
                 cargandoForm.Show();
