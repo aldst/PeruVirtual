@@ -133,6 +133,9 @@
   <data name="obtenido_mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\obtenido_mapa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CaralSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaralSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="btn_explorar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_explorar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +144,9 @@
   </data>
   <data name="MacchuPicchu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MachuPicchu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idioma_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idioma_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hoodson_free_font" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hoodson free font .ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -151,8 +157,8 @@
   <data name="BG_slide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG_slide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SacsayhumanaSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SacsayhumanaSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NazcaSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NazcaSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mapa_Peru" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mapa Peru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +169,8 @@
   <data name="String" xml:space="preserve">
     <value>Mapa_Peru</value>
   </data>
-  <data name="Paracas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Paracas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Actual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actual.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explorar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\explorar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,23 +178,26 @@
   <data name="MachuIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MachuIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NazcaSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NazcaSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Antiguo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Antiguo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idioma_español" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idioma_español.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nazca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nazca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Actual" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Actual.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MachuIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MachuIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Antiguo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Antiguo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SacsayhumanaSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SacsayhumanaSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cargando" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cargando.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obteniendo_mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obteniendo_mapa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FBIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FBIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,10 +205,10 @@
   <data name="MacchuPicchuSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MacchuPicchuSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CaralSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CaralSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Paracas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paracas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="obteniendo_mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\obteniendo_mapa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="idioma_ingles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idioma_ingles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

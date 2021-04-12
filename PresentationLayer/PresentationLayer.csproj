@@ -316,6 +316,15 @@
   <ItemGroup>
     <None Include="Resources\obteniendo_mapa.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idioma_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idioma_español.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idioma_ingles.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

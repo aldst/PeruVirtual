@@ -38,9 +38,11 @@
             this.Restaurar = new System.Windows.Forms.PictureBox();
             this.Salir = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ingles = new System.Windows.Forms.Button();
+            this.espanol = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.idioma_icon = new System.Windows.Forms.PictureBox();
             this.lblRegistrate = new System.Windows.Forms.LinkLabel();
             this.passwordPanel = new System.Windows.Forms.Panel();
             this.hint_password = new System.Windows.Forms.Label();
@@ -59,7 +61,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Salir)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idioma_icon)).BeginInit();
             this.passwordPanel.SuspendLayout();
             this.usernamePanel.SuspendLayout();
             this.SuspendLayout();
@@ -161,20 +163,46 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.ingles);
+            this.panel1.Controls.Add(this.espanol);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.idioma_icon);
             this.panel1.Controls.Add(this.lblRegistrate);
             this.panel1.Controls.Add(this.passwordPanel);
             this.panel1.Controls.Add(this.usernamePanel);
             this.panel1.Controls.Add(this.FacebookLoginBtn);
             this.panel1.Controls.Add(this.LoginBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 55);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1333, 738);
+            this.panel1.Size = new System.Drawing.Size(1333, 683);
             this.panel1.TabIndex = 1;
+            // 
+            // ingles
+            // 
+            this.ingles.BackColor = System.Drawing.Color.Transparent;
+            this.ingles.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_ingles;
+            this.ingles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ingles.Location = new System.Drawing.Point(25, 135);
+            this.ingles.Name = "ingles";
+            this.ingles.Size = new System.Drawing.Size(50, 50);
+            this.ingles.TabIndex = 15;
+            this.ingles.UseVisualStyleBackColor = false;
+            this.ingles.Visible = false;
+            // 
+            // espanol
+            // 
+            this.espanol.BackColor = System.Drawing.Color.Transparent;
+            this.espanol.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_español;
+            this.espanol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.espanol.Location = new System.Drawing.Point(25, 78);
+            this.espanol.Name = "espanol";
+            this.espanol.Size = new System.Drawing.Size(50, 50);
+            this.espanol.TabIndex = 14;
+            this.espanol.UseVisualStyleBackColor = false;
+            this.espanol.Visible = false;
             // 
             // checkBox1
             // 
@@ -197,13 +225,19 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Visible = false;
             // 
-            // pictureBox2
+            // idioma_icon
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.idioma_icon.BackColor = System.Drawing.Color.Transparent;
+            this.idioma_icon.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_icon;
+            this.idioma_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.idioma_icon.Location = new System.Drawing.Point(25, 24);
+            this.idioma_icon.Margin = new System.Windows.Forms.Padding(0);
+            this.idioma_icon.Name = "idioma_icon";
+            this.idioma_icon.Size = new System.Drawing.Size(50, 50);
+            this.idioma_icon.TabIndex = 0;
+            this.idioma_icon.TabStop = false;
+            this.idioma_icon.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.idioma_icon.DoubleClick += new System.EventHandler(this.idioma_icon_DoubleClick);
             // 
             // lblRegistrate
             // 
@@ -342,8 +376,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1333, 738);
-            this.Controls.Add(this.topPanel);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.topPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -360,7 +394,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idioma_icon)).EndInit();
             this.passwordPanel.ResumeLayout(false);
             this.passwordPanel.PerformLayout();
             this.usernamePanel.ResumeLayout(false);
@@ -389,8 +423,10 @@
         private System.Windows.Forms.LinkLabel lblRegistrate;
         private System.Windows.Forms.Label hint_username;
         private System.Windows.Forms.Label hint_password;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox idioma_icon;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button espanol;
+        private System.Windows.Forms.Button ingles;
     }
 }

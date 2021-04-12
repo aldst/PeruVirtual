@@ -311,5 +311,17 @@ namespace PresentationLayer
                 LoginBtn.PerformClick();
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            espanol.Visible = true;
+            ingles.Visible = true;
+        }
+
+        private void idioma_icon_DoubleClick(object sender, EventArgs e)
+        {
+            espanol.Visible = false;
+            ingles.Visible = false;
+        }
     }
 }
