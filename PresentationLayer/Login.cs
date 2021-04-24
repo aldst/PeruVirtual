@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Threading;
 
 namespace PresentationLayer
 {
@@ -52,8 +53,10 @@ namespace PresentationLayer
 
         public Login()
         {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
             InitializeComponent();
-      
+            Console.WriteLine(LoginBtn.Text);
+
             Bitmap resized = new Bitmap(Properties.Resources.FBIcon, new Size(25, 25));
             FacebookLoginBtn.Image = resized;
             FacebookLoginBtn.ImageAlign = ContentAlignment.MiddleCenter;
@@ -81,6 +84,7 @@ namespace PresentationLayer
             Lbl_topPanel.Font = new Font(pfc.Families[0], 23F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(0)));
 
             ActiveControl = usernameTB;
+
         }
 
         private async void FacebookLoginBtn_Click(object sender, EventArgs e)
@@ -323,5 +327,26 @@ namespace PresentationLayer
             espanol.Visible = false;
             ingles.Visible = false;
         }
+
+        private void espanol_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-PE");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+
+        private void ingles_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            this.Controls.Clear();
+            InitializeComponent();
+
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }
