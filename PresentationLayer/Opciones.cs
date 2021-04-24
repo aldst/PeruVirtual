@@ -37,16 +37,15 @@ namespace PresentationLayer
             switch (Selected)
             {
                 case "Machu Picchu":
-                    p = Process.Start(util.DirPath() + @"\Lugares\MachuPicchu\MachuPicchu.exe");
+                    p = Process.Start(util.DirPath() + @"\Lugares\MachuPicchu\Actual\MachuPicchu.exe");
                     p.WaitForInputIdle();
                     break;
                 case "Caral":
-                    p = Process.Start(util.DirPath() + @"\Lugares\Caral\TheRealCaral.exe");
+                    p = Process.Start(util.DirPath() + @"\Lugares\Caral\Actual\TheRealCaral.exe");
                     p.WaitForInputIdle();
                     break;
                 case "Sacsayhuaman": MessageBox.Show("Sin implementar"); break;
                 case "Nazca": MessageBox.Show("Sin implementar"); break;
-                case "Paracas": MessageBox.Show("Sin implementar"); break;
                 default: break;
             }
         }
@@ -56,11 +55,16 @@ namespace PresentationLayer
             Process p;
             switch (Selected)
             {
-                case "Machu Picchu": MessageBox.Show("Sin implementar");  break;
-                case "Caral": MessageBox.Show("Sin implementar"); break;
+                case "Machu Picchu":
+                    p = Process.Start(util.DirPath() + @"\Lugares\MachuPicchu\Antigua\MachuPicchu.exe");
+                    p.WaitForInputIdle();
+                    break;
+                case "Caral":
+                    p = Process.Start(util.DirPath() + @"\Lugares\Caral\Antigua\TheRealCaral.exe");
+                    p.WaitForInputIdle();
+                    break;
                 case "Sacsayhuaman": MessageBox.Show("Sin implementar"); break;
                 case "Nazca": MessageBox.Show("Sin implementar"); break;
-                case "Paracas": MessageBox.Show("Sin implementar"); break;
                 default: break;
             }
         }

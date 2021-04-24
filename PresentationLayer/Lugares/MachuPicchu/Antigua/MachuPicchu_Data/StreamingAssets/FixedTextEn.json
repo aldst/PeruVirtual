@@ -1,0 +1,15 @@
+{
+    "questionTitle":"Welcome to Machu Picchu",
+    "questionBody":"Machu Picchu is a magical place with impressive architecture. Its walls and the gigantic stones with which it was built cause more than a surprise to its visitors. Built in the 15th century, it has a temperature that can range from -2 ° C to 21 ° C. To know more about the temperature and recommendations on what to take to Machu Picchu, visit our section of \"Climate in Machu Picchu \". \n \n Do you want to start the tour?",
+    "questionOption1":"No",
+    "questionOption2":"Yes",
+
+   	"menuTitle":"Settings",
+    "menuVolumeLabel":"Volume",
+    "menuLanguageLabel":"Language",
+    "menuLanguageOptEs":"Spanish",
+    "menuLanguageOptEn":"English",
+    "menuBtnReturnLabel":"Return to the tour",
+
+    "instruction":"Press W or S to continue"
+}

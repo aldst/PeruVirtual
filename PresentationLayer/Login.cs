@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Threading;
 
 namespace PresentationLayer
 {
@@ -52,6 +53,7 @@ namespace PresentationLayer
 
         public Login()
         {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-PE");
             InitializeComponent();
       
             Bitmap resized = new Bitmap(Properties.Resources.FBIcon, new Size(25, 25));
@@ -153,8 +155,11 @@ namespace PresentationLayer
                 PictureBox gif = new PictureBox();
                 cargandoForm.Controls.Add(gif);
                 gif.Dock = DockStyle.Fill;
-                gif.Image = Properties.Resources.Mapa_Peru;
+                gif.Image = Properties.Resources.obtenido_mapa12;
+                gif.BackColor = Color.Transparent;
                 gif.SizeMode = PictureBoxSizeMode.StretchImage;
+                cargandoForm.BackColor = Color.AntiqueWhite;
+                cargandoForm.TransparencyKey = Color.AntiqueWhite;
                 cargandoForm.FormBorderStyle = FormBorderStyle.None;
                 cargandoForm.StartPosition = FormStartPosition.CenterScreen;
                 cargandoForm.Show();
@@ -178,7 +183,17 @@ namespace PresentationLayer
 
         private void Salir_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Esta seguro que desea salir de la aplicación?", "Confirmación", MessageBoxButtons.YesNo);
+            DialogResult result;
+
+            if (Thread.CurrentThread.CurrentUICulture.Name == "es-PE")
+            {
+                result = MessageBox.Show("¿Esta seguro que desea salir de la aplicación?", "Confirmación", MessageBoxButtons.YesNo);
+            }
+            else
+            {
+                result = MessageBox.Show("Are you sure that you want to leave the application?", "Confirmation", MessageBoxButtons.YesNo);
+            }
+            
             if (result == DialogResult.Yes)
             {
                 Application.Exit();
@@ -307,6 +322,34 @@ namespace PresentationLayer
             {
                 LoginBtn.PerformClick();
             }
+        }
+
+        private void language_icon_MouseClick(object sender, MouseEventArgs e)
+        {
+            if(espanol.Visible)
+            {
+                espanol.Visible = false;
+                english.Visible = false;
+            }
+            else
+            {
+                espanol.Visible = true;
+                english.Visible = true;
+            }
+        }
+
+        private void espanol_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-PE");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+
+        private void english_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }

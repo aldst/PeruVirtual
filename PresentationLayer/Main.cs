@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.IO;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace PresentationLayer
@@ -32,6 +33,7 @@ namespace PresentationLayer
 
         public Main()
         {
+            Console.WriteLine(Thread.CurrentThread.CurrentUICulture.Name);
             InitializeComponent();
             this.Icon = Resources.MachuIcon;
             VideoPlayer.uiMode = "none";
@@ -61,7 +63,16 @@ namespace PresentationLayer
         //------------Manejo de Ventana-------------------------------//
         private void Salir_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Esta seguro que desea salir de la aplicación?", "Confirmación", MessageBoxButtons.YesNo);
+            DialogResult result;
+            if(Thread.CurrentThread.CurrentUICulture.Name == "es-PE")
+            {
+                result = MessageBox.Show("¿Esta seguro que desea salir de la aplicación?", "Confirmación", MessageBoxButtons.YesNo);
+            }
+            else
+            {
+                result = MessageBox.Show("Are you sure you want to leave this application?", "Confirmation", MessageBoxButtons.YesNo);
+            }
+
             if (result == DialogResult.Yes)
             {
                 Application.Exit();
@@ -335,7 +346,17 @@ namespace PresentationLayer
 
         private void CloseSession_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Esta seguro que desea cerrar sesión? \nSera enviado a la pantalla principal.", "Confirmación de cierre de sesión", MessageBoxButtons.YesNo);
+            DialogResult result;
+            if(Thread.CurrentThread.CurrentUICulture.Name == "es-PE")
+            {
+                result = MessageBox.Show("¿Esta seguro que desea cerrar sesión? \nSera enviado a la pantalla principal.", "Confirmación de cierre de sesión", MessageBoxButtons.YesNo);
+            }
+            else
+            {
+                result = MessageBox.Show("Are you sure that you want to log out? \nYou will be sent to the main screen.", "Loguot confirmation", MessageBoxButtons.YesNo);
+            }
+            
+            //DialogResult result = MessageBox.Show("¿Esta seguro que desea cerrar sesión? \nSera enviado a la pantalla principal.", "Confirmación de cierre de sesión", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
                 Close();
@@ -349,6 +370,19 @@ namespace PresentationLayer
 
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if(espanol.Visible)
+            {
+                espanol.Visible = false;
+                ingles.Visible = false;
+            }
+            else
+            {
+                espanol.Visible = true;
+                ingles.Visible = true;
+            }
+        }
     }
     class RoundedButton : Button
     {
