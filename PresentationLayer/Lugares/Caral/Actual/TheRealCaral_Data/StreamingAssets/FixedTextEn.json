@@ -1,0 +1,15 @@
+{
+    "questionTitle":"Welcome to Caral",
+    "questionBody":"In Caral there are 7 great pyramids and 2 temples divided into Upper Sector and Lower Sector. Being the main and the destination of this tour being the being the main one of the Upper Sector, the Greater Pyramid.\n\n Do you want to start the tour?",
+    "questionOption1":"No",
+    "questionOption2":"Yes",
+
+   	"menuTitle":"Settings",
+    "menuVolumeLabel":"Volume",
+    "menuLanguageLabel":"Language",
+    "menuLanguageOptEs":"Spanish",
+    "menuLanguageOptEn":"English",
+    "menuBtnReturnLabel":"Return to the tour",
+
+    "instruction":"Press W or S to continue"
+}
