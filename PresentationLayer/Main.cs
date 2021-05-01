@@ -49,6 +49,7 @@ namespace PresentationLayer
             Button_Explorar2.BackgroundImageLayout = Button_Explorar.BackgroundImageLayout;
             Button_Explorar2.MouseClick += Opciones_Antiguo_Nuevo;
             Button_Explorar2.FlatStyle = FlatStyle.Flat;
+            Button_Explorar2.Text = "EXPLORAR";
             Resize();
             Button_Explorar.Visible = false;
             //Console.WriteLine(Button_Explorar.Location);

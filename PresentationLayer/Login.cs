@@ -55,13 +55,19 @@ namespace PresentationLayer
         {
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-PE");
             InitializeComponent();
-      
+            Modify_Componente_Aspect();
+
+
+        }
+
+        private void Modify_Componente_Aspect()
+        {
             Bitmap resized = new Bitmap(Properties.Resources.FBIcon, new Size(25, 25));
             FacebookLoginBtn.Image = resized;
             FacebookLoginBtn.ImageAlign = ContentAlignment.MiddleCenter;
             FacebookLoginBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
             FacebookLoginBtn.TextAlign = ContentAlignment.MiddleCenter;
-            FacebookLoginBtn.Padding = new Padding(15,0,0,0);
+            FacebookLoginBtn.Padding = new Padding(15, 0, 0, 0);
 
             usernamePanel.Region = Region.FromHrgn(CreateRoundRectRgn(2, 3, usernamePanel.Width, usernamePanel.Height, 15, 15));
             passwordPanel.Region = Region.FromHrgn(CreateRoundRectRgn(2, 3, passwordPanel.Width, passwordPanel.Height, 15, 15));
@@ -343,6 +349,7 @@ namespace PresentationLayer
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-PE");
             this.Controls.Clear();
             InitializeComponent();
+            Modify_Componente_Aspect();
         }
 
         private void english_Click(object sender, EventArgs e)
@@ -350,6 +357,7 @@ namespace PresentationLayer
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
             this.Controls.Clear();
             InitializeComponent();
+            Modify_Componente_Aspect();
         }
     }
 }

@@ -83,6 +83,27 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Azul_Moderno_Negro_y_Blanco {
+            get {
+                object obj = ResourceManager.GetObject("Azul_Moderno_Negro_y_Blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Azul_Moderno_Negro_y_Blanco_Kit_de_ConferenciaSeminario_Historia_Interactiva_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Azul_Moderno_Negro_y_Blanco_Kit_de_ConferenciaSeminario_Historia_Interactiva-remo" +
+                        "vebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BG_slide {
             get {
                 object obj = ResourceManager.GetObject("BG_slide", resourceCulture);
@@ -96,6 +117,16 @@ namespace PresentationLayer.Properties {
         internal static System.Drawing.Bitmap btn_explorar {
             get {
                 object obj = ResourceManager.GetObject("btn_explorar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2021_05_01_015212_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Captura_de_pantalla_2021-05-01_015212-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -386,6 +417,26 @@ namespace PresentationLayer.Properties {
         internal static string String {
             get {
                 return ResourceManager.GetString("String", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_05_01_at_3_07_43_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-05-01 at 3.07.43 AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_05_01_at_3_07_46_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-05-01 at 3.07.46 AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

@@ -1,15 +1,15 @@
 {
-    "questionTitle":"Bienvenido a Machu Picchu",
-    "questionBody":"Machu Picchu es un lugar mágico y con una arquitectura impresionante. Sus murallas y las gigantescas piedras con las que fue construida cusas más de un asombro a sus visitantes. Construida en el siglo XV, posee una temperatura que puede ir desde los -2°C hasta los 21°C. Para saber más sobre la temperatura y recomendaciones sobre qué llevar a Machu Picchu, visita nuestra sección de “Clima en Machu Picchu”.\n\n ¿Desea comenzar el recorrido?",
-    "questionOption1":"No",
-    "questionOption2":"Si",
+  "questionTitle": "Bienvenido",
+  "questionBody": "Machu Picchu es un lugar mágico y con una arquitectura impresionante. Sus murallas y las gigantescas piedras con las que fue construida cusas más de un asombro a sus visitantes. Construida en el siglo XV, posee una temperatura que puede ir desde los -2°C hasta los 21°C. Para saber más sobre la temperatura y recomendaciones sobre qué llevar a Machu Picchu, visita nuestra sección de “Clima en Machu Picchu”.\n\n ¿Desea comenzar el recorrido?",
+  "questionOption1": "No",
+  "questionOption2": "Si",
 
-   	"menuTitle":"Configuraciones",
-    "menuVolumeLabel":"Volumen",
-    "menuLanguageLabel":"Lenguaje",
-    "menuLanguageOptEs":"Español",
-    "menuLanguageOptEn":"Ingles",
-    "menuBtnReturnLabel":"Retornar al Tour",
-
-    "instruction":"Presiona W o S para continuar"
+  "menuTitle": "Configuraciones",
+  "menuVolumeLabel": "Volumen",
+  "menuLanguageLabel": "Lenguaje",
+  "menuLanguageOptEs": "Español",
+  "menuLanguageOptEn": "Ingles",
+  "menuBtnReturnLabel": "Retornar al recorrido",
+  "menuBtnLeaveTourLabel": "Salir del recorrido",
+  "instruction": "Continuar (Presionar W o S)"
 }

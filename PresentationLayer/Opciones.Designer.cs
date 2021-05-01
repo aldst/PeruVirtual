@@ -49,20 +49,20 @@
             this.panelAntiguo.Location = new System.Drawing.Point(0, 33);
             this.panelAntiguo.Margin = new System.Windows.Forms.Padding(0);
             this.panelAntiguo.Name = "panelAntiguo";
-            this.panelAntiguo.Size = new System.Drawing.Size(200, 274);
+            this.panelAntiguo.Size = new System.Drawing.Size(200, 406);
             this.panelAntiguo.TabIndex = 0;
             // 
             // btnAntiguo
             // 
             this.btnAntiguo.BackColor = System.Drawing.Color.Black;
-            this.btnAntiguo.BackgroundImage = global::PresentationLayer.Properties.Resources.Antiguo;
+            this.btnAntiguo.BackgroundImage = global::PresentationLayer.Properties.Resources.WhatsApp_Image_2021_05_01_at_3_07_46_AM;
             this.btnAntiguo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAntiguo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAntiguo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAntiguo.Location = new System.Drawing.Point(0, 0);
             this.btnAntiguo.Margin = new System.Windows.Forms.Padding(0);
             this.btnAntiguo.Name = "btnAntiguo";
-            this.btnAntiguo.Size = new System.Drawing.Size(200, 274);
+            this.btnAntiguo.Size = new System.Drawing.Size(200, 406);
             this.btnAntiguo.TabIndex = 0;
             this.btnAntiguo.TabStop = false;
             this.btnAntiguo.UseVisualStyleBackColor = true;
@@ -75,19 +75,19 @@
             this.panelActual.Location = new System.Drawing.Point(200, 33);
             this.panelActual.Margin = new System.Windows.Forms.Padding(0);
             this.panelActual.Name = "panelActual";
-            this.panelActual.Size = new System.Drawing.Size(200, 274);
+            this.panelActual.Size = new System.Drawing.Size(232, 406);
             this.panelActual.TabIndex = 1;
             // 
             // btnActual
             // 
-            this.btnActual.BackgroundImage = global::PresentationLayer.Properties.Resources.Actual;
+            this.btnActual.BackgroundImage = global::PresentationLayer.Properties.Resources.WhatsApp_Image_2021_05_01_at_3_07_43_AM;
             this.btnActual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnActual.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActual.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnActual.Location = new System.Drawing.Point(0, 0);
             this.btnActual.Margin = new System.Windows.Forms.Padding(0);
             this.btnActual.Name = "btnActual";
-            this.btnActual.Size = new System.Drawing.Size(200, 274);
+            this.btnActual.Size = new System.Drawing.Size(232, 406);
             this.btnActual.TabIndex = 0;
             this.btnActual.TabStop = false;
             this.btnActual.UseVisualStyleBackColor = true;
@@ -101,17 +101,17 @@
             this.topPanel.Location = new System.Drawing.Point(0, 0);
             this.topPanel.Margin = new System.Windows.Forms.Padding(0);
             this.topPanel.Name = "topPanel";
-            this.topPanel.Size = new System.Drawing.Size(400, 33);
+            this.topPanel.Size = new System.Drawing.Size(432, 33);
             this.topPanel.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Hoodson Script Free Demo", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(7, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 25);
+            this.label1.Size = new System.Drawing.Size(92, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "Opciones";
             // 
@@ -119,7 +119,7 @@
             // 
             this.Salir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Salir.Image = ((System.Drawing.Image)(resources.GetObject("Salir.Image")));
-            this.Salir.Location = new System.Drawing.Point(368, 5);
+            this.Salir.Location = new System.Drawing.Point(400, 5);
             this.Salir.Name = "Salir";
             this.Salir.Size = new System.Drawing.Size(25, 25);
             this.Salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -131,8 +131,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(400, 307);
+            this.ClientSize = new System.Drawing.Size(432, 439);
             this.Controls.Add(this.panelActual);
             this.Controls.Add(this.panelAntiguo);
             this.Controls.Add(this.topPanel);

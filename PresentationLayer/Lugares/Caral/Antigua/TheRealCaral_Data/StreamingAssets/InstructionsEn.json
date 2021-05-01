@@ -1,0 +1,6 @@
+{
+  "instructionTitle": "Welcome to Caral",
+  "instructionDescription": "Welcome to the virtual Caral tour, within the route you'll use the following keys: \n\n\n\tW: Press the key to go on\n\n\n\tS: Press the key to go back\n\n\tEsc: Press the key to see settings, such as volume or language",
+  "instructionInstruction": "",
+  "instructionBtnContinueLabel": "Continue (Press W o S)"
+}

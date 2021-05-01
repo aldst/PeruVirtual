@@ -117,14 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="pictureBox2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1261, 16</value>
+    <value>933, 13</value>
+  </data>
+  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pictureBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 750, 0</value>
   </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 45</value>
+    <value>34, 37</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
   </data>
@@ -143,6 +155,117 @@
   </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;CloseSession.Name" xml:space="preserve">
+    <value>CloseSession</value>
+  </data>
+  <data name="&gt;&gt;CloseSession.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseSession.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;CloseSession.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Restaurar.Name" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="&gt;&gt;Restaurar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Restaurar.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;Restaurar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Minimizar.Name" xml:space="preserve">
+    <value>Minimizar</value>
+  </data>
+  <data name="&gt;&gt;Minimizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Minimizar.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;Minimizar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Maximizar.Name" xml:space="preserve">
+    <value>Maximizar</value>
+  </data>
+  <data name="&gt;&gt;Maximizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Maximizar.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;Maximizar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Salir.Name" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="&gt;&gt;Salir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Salir.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;Salir.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Lbl_panelTop.Name" xml:space="preserve">
+    <value>Lbl_panelTop</value>
+  </data>
+  <data name="&gt;&gt;Lbl_panelTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_panelTop.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;Lbl_panelTop.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PanelTask.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="PanelTask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PanelTask.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="PanelTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 60</value>
+  </data>
+  <data name="PanelTask.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelTask.Name" xml:space="preserve">
+    <value>PanelTask</value>
+  </data>
+  <data name="&gt;&gt;PanelTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelTask.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelTask.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="CloseSession.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -623,14 +746,17 @@
         Jq0SExkmjFo0Ik2ZtUxOYSIN0yJgIiIFvMIj/wBAv//Z
 </value>
   </data>
+  <data name="CloseSession.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="CloseSession.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1590, 20</value>
+    <value>997, 16</value>
   </data>
   <data name="CloseSession.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="CloseSession.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 37</value>
+    <value>30, 30</value>
   </data>
   <data name="CloseSession.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -669,14 +795,17 @@
         AAAASUVORK5CYII=
 </value>
   </data>
+  <data name="Restaurar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Restaurar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1696, 20</value>
+    <value>1077, 16</value>
   </data>
   <data name="Restaurar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="Restaurar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 37</value>
+    <value>30, 30</value>
   </data>
   <data name="Restaurar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -715,14 +844,17 @@
         MzL5oZvwAPmf/2rwG3xYQ5aNpKZa80al8gNYAXxkPMqV6QAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="Minimizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Minimizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1648, 20</value>
+    <value>1041, 16</value>
   </data>
   <data name="Minimizar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="Minimizar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 37</value>
+    <value>30, 30</value>
   </data>
   <data name="Minimizar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -759,14 +891,17 @@
         SUVORK5CYII=
 </value>
   </data>
+  <data name="Maximizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Maximizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1696, 20</value>
+    <value>1077, 16</value>
   </data>
   <data name="Maximizar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="Maximizar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 37</value>
+    <value>30, 30</value>
   </data>
   <data name="Maximizar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -805,14 +940,17 @@
         NTR2kX6nxKCu2Zo2Op0XSzCOHMh98ywAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="Salir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Salir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1744, 20</value>
+    <value>1113, 16</value>
   </data>
   <data name="Salir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="Salir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 37</value>
+    <value>30, 30</value>
   </data>
   <data name="Salir.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -838,14 +976,17 @@
   <data name="Lbl_panelTop.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 23.25pt</value>
   </data>
+  <data name="Lbl_panelTop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Lbl_panelTop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 16</value>
+    <value>64, 13</value>
   </data>
   <data name="Lbl_panelTop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="Lbl_panelTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 44</value>
+    <value>176, 35</value>
   </data>
   <data name="Lbl_panelTop.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1831,14 +1972,17 @@
         sTKvzkMXoC4570AYAFLUNjCkOccHBpaKQCBs8Hg+lLSEA9aTJXhvzoAdRRRQAUUUUAFFFFAH/9k=
 </value>
   </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 18</value>
+    <value>22, 15</value>
   </data>
   <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 37</value>
+    <value>30, 30</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -1858,29 +2002,80 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="PanelTask.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;Nazca.Name" xml:space="preserve">
+    <value>Nazca</value>
   </data>
-  <data name="PanelTask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;Nazca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="PanelTask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 74</value>
+  <data name="&gt;&gt;Nazca.Parent" xml:space="preserve">
+    <value>PanelOpciones</value>
   </data>
-  <data name="PanelTask.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Nazca.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;PanelTask.Name" xml:space="preserve">
-    <value>PanelTask</value>
+  <data name="&gt;&gt;Sacsayhuaman.Name" xml:space="preserve">
+    <value>Sacsayhuaman</value>
   </data>
-  <data name="&gt;&gt;PanelTask.Type" xml:space="preserve">
+  <data name="&gt;&gt;Sacsayhuaman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sacsayhuaman.Parent" xml:space="preserve">
+    <value>PanelOpciones</value>
+  </data>
+  <data name="&gt;&gt;Sacsayhuaman.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Caral.Name" xml:space="preserve">
+    <value>Caral</value>
+  </data>
+  <data name="&gt;&gt;Caral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Caral.Parent" xml:space="preserve">
+    <value>PanelOpciones</value>
+  </data>
+  <data name="&gt;&gt;Caral.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MachuPicchu.Name" xml:space="preserve">
+    <value>MachuPicchu</value>
+  </data>
+  <data name="&gt;&gt;MachuPicchu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MachuPicchu.Parent" xml:space="preserve">
+    <value>PanelOpciones</value>
+  </data>
+  <data name="&gt;&gt;MachuPicchu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PanelOpciones.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="PanelOpciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 458</value>
+  </data>
+  <data name="PanelOpciones.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="PanelOpciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 229</value>
+  </data>
+  <data name="PanelOpciones.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PanelOpciones.Name" xml:space="preserve">
+    <value>PanelOpciones</value>
+  </data>
+  <data name="&gt;&gt;PanelOpciones.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PanelTask.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PanelOpciones.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;PanelTask.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;PanelOpciones.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="Nazca.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5747,14 +5942,17 @@
         BbzSHoQgMDzGUpyBCxTX4zUiFRGCHroEFjjhOT4gIgUEADs=
 </value>
   </data>
+  <data name="Nazca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Nazca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>640, 0</value>
+    <value>480, 0</value>
   </data>
   <data name="Nazca.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Nazca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 123</value>
+    <value>160, 100</value>
   </data>
   <data name="Nazca.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -7953,14 +8151,17 @@
         JW+l/wAZnb3vVfuXpfjCX/qnx73dQj//2Q==
 </value>
   </data>
+  <data name="Sacsayhuaman.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Sacsayhuaman.Location" type="System.Drawing.Point, System.Drawing">
-    <value>427, 0</value>
+    <value>320, 0</value>
   </data>
   <data name="Sacsayhuaman.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Sacsayhuaman.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 123</value>
+    <value>160, 100</value>
   </data>
   <data name="Sacsayhuaman.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -14384,14 +14585,17 @@
         lJ+XA5NFMD//2Q==
 </value>
   </data>
+  <data name="Caral.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Caral.Location" type="System.Drawing.Point, System.Drawing">
-    <value>213, 0</value>
+    <value>160, 0</value>
   </data>
   <data name="Caral.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="Caral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 123</value>
+    <value>160, 100</value>
   </data>
   <data name="Caral.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -19344,6 +19548,9 @@
         8r/zL+d8nlXv/b5N1SPl/9k=
 </value>
   </data>
+  <data name="MachuPicchu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="MachuPicchu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -19354,7 +19561,7 @@
     <value>1, 1, 1, 1</value>
   </data>
   <data name="MachuPicchu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 122</value>
+    <value>160, 100</value>
   </data>
   <data name="MachuPicchu.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -19374,47 +19581,23 @@
   <data name="&gt;&gt;MachuPicchu.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="PanelOpciones.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="PanelOpciones.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 604</value>
-  </data>
-  <data name="PanelOpciones.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="PanelOpciones.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 282</value>
-  </data>
-  <data name="PanelOpciones.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;PanelOpciones.Name" xml:space="preserve">
-    <value>PanelOpciones</value>
-  </data>
-  <data name="&gt;&gt;PanelOpciones.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelOpciones.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PanelOpciones.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="LblTitulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="LblTitulo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 40pt</value>
   </data>
+  <data name="LblTitulo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="LblTitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 74</value>
+    <value>0, 60</value>
   </data>
   <data name="LblTitulo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="LblTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 74</value>
+    <value>1155, 60</value>
   </data>
   <data name="LblTitulo.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -19441,13 +19624,13 @@
     <value>Bottom</value>
   </data>
   <data name="Separacion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 598</value>
+    <value>0, 453</value>
   </data>
   <data name="Separacion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="Separacion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 6</value>
+    <value>1155, 5</value>
   </data>
   <data name="Separacion.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -19464,14 +19647,65 @@
   <data name="&gt;&gt;Separacion.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="Button_Explorar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Button_Explorar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button_Explorar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Explorar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Button_Explorar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Corbel, 20pt, style=Bold</value>
+  </data>
+  <data name="Button_Explorar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Explorar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 263</value>
+  </data>
+  <data name="Button_Explorar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Button_Explorar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 60</value>
+  </data>
+  <data name="Button_Explorar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Button_Explorar.Text" xml:space="preserve">
+    <value>Explorar</value>
+  </data>
+  <data name="&gt;&gt;Button_Explorar.Name" xml:space="preserve">
+    <value>Button_Explorar</value>
+  </data>
+  <data name="&gt;&gt;Button_Explorar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Explorar.Parent" xml:space="preserve">
+    <value>PanelVideo</value>
+  </data>
+  <data name="&gt;&gt;Button_Explorar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="ingles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="ingles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1261, -14</value>
+    <value>933, -10</value>
+  </data>
+  <data name="ingles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ingles.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 750, 0</value>
   </data>
   <data name="ingles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 45</value>
+    <value>34, 37</value>
   </data>
   <data name="ingles.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
@@ -19492,45 +19726,6 @@
     <value>PanelVideo</value>
   </data>
   <data name="&gt;&gt;ingles.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Button_Explorar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Button_Explorar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Button_Explorar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="Button_Explorar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 21.75pt</value>
-  </data>
-  <data name="Button_Explorar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>775, 387</value>
-  </data>
-  <data name="Button_Explorar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="Button_Explorar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 62</value>
-  </data>
-  <data name="Button_Explorar.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="Button_Explorar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;Button_Explorar.Name" xml:space="preserve">
-    <value>Button_Explorar</value>
-  </data>
-  <data name="&gt;&gt;Button_Explorar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button_Explorar.Parent" xml:space="preserve">
-    <value>PanelVideo</value>
-  </data>
-  <data name="&gt;&gt;Button_Explorar.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="VideoPlayer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -19543,7 +19738,7 @@
     <value>0, 0</value>
   </data>
   <data name="VideoPlayer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>20, 18, 20, 18</value>
+    <value>16, 15, 16, 15</value>
   </data>
   <data name="VideoPlayer.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -19557,7 +19752,7 @@
 </value>
   </data>
   <data name="VideoPlayer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 450</value>
+    <value>1155, 333</value>
   </data>
   <data name="VideoPlayer.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -19578,13 +19773,13 @@
     <value>Fill</value>
   </data>
   <data name="PanelVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 148</value>
+    <value>0, 120</value>
   </data>
   <data name="PanelVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 62, 67, 62</value>
+    <value>50, 50, 50, 50</value>
   </data>
   <data name="PanelVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 450</value>
+    <value>1155, 333</value>
   </data>
   <data name="PanelVideo.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -19605,10 +19800,16 @@
     <value>NoControl</value>
   </data>
   <data name="espanol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1261, 80</value>
+    <value>933, 60</value>
+  </data>
+  <data name="espanol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="espanol.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 750, 0</value>
   </data>
   <data name="espanol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 45</value>
+    <value>34, 37</value>
   </data>
   <data name="espanol.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
@@ -19635,13 +19836,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 886</value>
+    <value>1155, 687</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

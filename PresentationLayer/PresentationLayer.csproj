@@ -174,6 +174,15 @@
     <EmbeddedResource Include="Main.en-US.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main.es-NI.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.es-PA.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.es-PE.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -312,6 +321,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\idioma_ingles_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azul_Moderno_Negro_y_Blanco_Kit_de_ConferenciaSeminario_Historia_Interactiva-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azul_Moderno_Negro_y_Blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_de_pantalla_2021-05-01_015212-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-05-01 at 3.07.46 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-05-01 at 3.07.43 AM.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -33,9 +33,9 @@ namespace PresentationLayer
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.PictureBox pictureBox2;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.PanelTask = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.CloseSession = new System.Windows.Forms.PictureBox();
             this.Restaurar = new System.Windows.Forms.PictureBox();
             this.Minimizar = new System.Windows.Forms.PictureBox();
@@ -52,11 +52,12 @@ namespace PresentationLayer
             this.Separacion = new System.Windows.Forms.Panel();
             this.PanelVideo = new System.Windows.Forms.Panel();
             this.Button_Explorar = new System.Windows.Forms.Button();
+            this.ingles = new System.Windows.Forms.PictureBox();
             this.VideoPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.espanol = new System.Windows.Forms.PictureBox();
-            this.ingles = new System.Windows.Forms.PictureBox();
+            pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox2)).BeginInit();
             this.PanelTask.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseSession)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimizar)).BeginInit();
@@ -69,15 +70,24 @@ namespace PresentationLayer
             ((System.ComponentModel.ISupportInitialize)(this.Caral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MachuPicchu)).BeginInit();
             this.PanelVideo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ingles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.VideoPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.espanol)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingles)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            pictureBox2.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_icon_2;
+            resources.ApplyResources(pictureBox2, "pictureBox2");
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // PanelTask
             // 
             this.PanelTask.BackColor = System.Drawing.Color.Black;
-            this.PanelTask.Controls.Add(this.pictureBox2);
+            this.PanelTask.Controls.Add(pictureBox2);
             this.PanelTask.Controls.Add(this.CloseSession);
             this.PanelTask.Controls.Add(this.Restaurar);
             this.PanelTask.Controls.Add(this.Minimizar);
@@ -89,15 +99,6 @@ namespace PresentationLayer
             this.PanelTask.ForeColor = System.Drawing.Color.Transparent;
             this.PanelTask.Name = "PanelTask";
             this.PanelTask.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TaskPanel_MouseDown);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_icon_2;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // CloseSession
             // 
@@ -212,8 +213,8 @@ namespace PresentationLayer
             // 
             // PanelVideo
             // 
-            this.PanelVideo.Controls.Add(this.ingles);
             this.PanelVideo.Controls.Add(this.Button_Explorar);
+            this.PanelVideo.Controls.Add(this.ingles);
             this.PanelVideo.Controls.Add(this.VideoPlayer);
             resources.ApplyResources(this.PanelVideo, "PanelVideo");
             this.PanelVideo.Name = "PanelVideo";
@@ -221,11 +222,22 @@ namespace PresentationLayer
             // Button_Explorar
             // 
             resources.ApplyResources(this.Button_Explorar, "Button_Explorar");
-            this.Button_Explorar.BackColor = System.Drawing.Color.White;
-            this.Button_Explorar.BackgroundImage = global::PresentationLayer.Properties.Resources.btn_explorar;
+            this.Button_Explorar.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Explorar.BackgroundImage = global::PresentationLayer.Properties.Resources.Azul_Moderno_Negro_y_Blanco;
+            this.Button_Explorar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Button_Explorar.FlatAppearance.BorderSize = 0;
+            this.Button_Explorar.ForeColor = System.Drawing.Color.Black;
             this.Button_Explorar.Name = "Button_Explorar";
+            this.Button_Explorar.Tag = "9";
             this.Button_Explorar.UseVisualStyleBackColor = false;
+            // 
+            // ingles
+            // 
+            this.ingles.BackColor = System.Drawing.Color.Transparent;
+            this.ingles.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_ingles_1;
+            resources.ApplyResources(this.ingles, "ingles");
+            this.ingles.Name = "ingles";
+            this.ingles.TabStop = false;
             // 
             // VideoPlayer
             // 
@@ -242,14 +254,6 @@ namespace PresentationLayer
             this.espanol.Name = "espanol";
             this.espanol.TabStop = false;
             // 
-            // ingles
-            // 
-            this.ingles.BackColor = System.Drawing.Color.Transparent;
-            this.ingles.BackgroundImage = global::PresentationLayer.Properties.Resources.idioma_ingles_1;
-            resources.ApplyResources(this.ingles, "ingles");
-            this.ingles.Name = "ingles";
-            this.ingles.TabStop = false;
-            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
@@ -261,12 +265,12 @@ namespace PresentationLayer
             this.Controls.Add(this.LblTitulo);
             this.Controls.Add(this.PanelOpciones);
             this.Controls.Add(this.PanelTask);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
+            ((System.ComponentModel.ISupportInitialize)(pictureBox2)).EndInit();
             this.PanelTask.ResumeLayout(false);
             this.PanelTask.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseSession)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Restaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimizar)).EndInit();
@@ -279,9 +283,10 @@ namespace PresentationLayer
             ((System.ComponentModel.ISupportInitialize)(this.Caral)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MachuPicchu)).EndInit();
             this.PanelVideo.ResumeLayout(false);
+            this.PanelVideo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ingles)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.VideoPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.espanol)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingles)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -306,7 +311,6 @@ namespace PresentationLayer
         private System.Windows.Forms.Button Button_Explorar;
         private AxWMPLib.AxWindowsMediaPlayer VideoPlayer;
         private System.Windows.Forms.PictureBox CloseSession;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox ingles;
         private System.Windows.Forms.PictureBox espanol;
     }

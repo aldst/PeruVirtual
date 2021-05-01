@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1418, 18</value>
-  </data>
   <data name="CloseSession.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/7gAOQWRvYmUAZAAAAAAB/+EhBEV4aWYAAE1NACoAAAAIAAcBEgAD
@@ -19003,15 +19000,6 @@
         8r/zL+d8nlXv/b5N1SPl/9k=
 </value>
   </data>
-  <data name="ingles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1418, -17</value>
-  </data>
-  <data name="Button_Explorar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 30pt, style=Bold</value>
-  </data>
-  <data name="Button_Explorar.Text" xml:space="preserve">
-    <value>Explore</value>
-  </data>
   <data name="VideoPlayer.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
@@ -19022,8 +19010,5 @@
         AAALAAAACwAAAAsAAAALAAAACAACAAAAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAALAAAAr1IAABgx
         AAAL
 </value>
-  </data>
-  <data name="espanol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1418, 80</value>
   </data>
 </root>
