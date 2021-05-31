@@ -423,6 +423,16 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tenor {
+            get {
+                object obj = ResourceManager.GetObject("tenor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2021_05_01_at_3_07_43_AM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2021-05-01 at 3.07.43 AM", resourceCulture);

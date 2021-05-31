@@ -15,7 +15,8 @@ namespace ModeloNegocio
         public string username { get; set; }
         public string nombre { get; set; }
 
-        String myConnectionString = "Database=peruvirtual;Data Source=goesdb.c2mojpcyafa7.us-east-1.rds.amazonaws.com;User Id=root;Password=bryanxd123";
+        String myConnectionString = "database=database-peruvirtual;server=database-peruvirtual.ca4xsdueyhbp.sa-east-1.rds.amazonaws.com;user id=admin;password=aldst367622543;port=3306;";
+           // "Database=peruvirtual;Data Source=goesdb.c2mojpcyafa7.us-east-1.rds.amazonaws.com;User Id=root;Password=bryanxd123";
 
         public String Insertar()
         {

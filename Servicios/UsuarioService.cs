@@ -11,9 +11,9 @@ namespace Servicios
     public class UsuarioService
     {
         UsuarioRepository usuarioRep = new UsuarioRepository();
-        public bool Login(String username, String contrasena)
+        public async Task<bool> Login(String username, String contrasena)
         {
-            List<usuario> users = usuarioRep.FindUsuario(username, Encriptar(contrasena));
+            List<usuario> users = await Task.FromResult(usuarioRep.FindUsuario(username, Encriptar(contrasena)));
             if (users.Count != 0)
             {
                 return true;

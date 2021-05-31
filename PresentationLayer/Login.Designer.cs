@@ -201,6 +201,7 @@
             this.usernamePanel.Controls.Add(this.usernameTB);
             resources.ApplyResources(this.usernamePanel, "usernamePanel");
             this.usernamePanel.Name = "usernamePanel";
+            this.usernamePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.usernamePanel_Paint);
             // 
             // hint_username
             // 

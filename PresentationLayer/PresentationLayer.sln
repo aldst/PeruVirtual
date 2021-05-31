@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VO", "..\VO\VO.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "..\Datos\Datos.csproj", "{F8796F10-0EB9-4B6F-A1D3-5ACD1C1E0EFF}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador", "..\Instalador\Instalador.vdproj", "{EF83645F-6917-47C3-B27C-50DFFB360896}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PeruVirtualApp", "..\PeruVirtualApp\PeruVirtualApp.vdproj", "{C05AA3D4-2354-4A07-9E73-A1F4EAB8F638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,8 +41,8 @@ Global
 		{F8796F10-0EB9-4B6F-A1D3-5ACD1C1E0EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8796F10-0EB9-4B6F-A1D3-5ACD1C1E0EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8796F10-0EB9-4B6F-A1D3-5ACD1C1E0EFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF83645F-6917-47C3-B27C-50DFFB360896}.Debug|Any CPU.ActiveCfg = Debug
-		{EF83645F-6917-47C3-B27C-50DFFB360896}.Release|Any CPU.ActiveCfg = Release
+		{C05AA3D4-2354-4A07-9E73-A1F4EAB8F638}.Debug|Any CPU.ActiveCfg = Debug
+		{C05AA3D4-2354-4A07-9E73-A1F4EAB8F638}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

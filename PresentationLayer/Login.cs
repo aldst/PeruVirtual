@@ -251,31 +251,59 @@ namespace PresentationLayer
             registroForm.ShowDialog();
         }
 
-        private void LoginBtn_Click(object sender, EventArgs e)
+        private async void LoginBtn_Click(object sender, EventArgs e)
         {
 
             if(usernameTB.Text.Length == 0)
             {
                 MessageBox.Show("El nombre de usuario no puede estar vacio.","Complete los campos");
-                return;
-            }
-            if (passwordTB.Text.Length == 0)
+            }else if (passwordTB.Text.Length == 0)
             {
                 MessageBox.Show("La contraseña no puede estar vacia.", "Complete los campos");
-                return;
-            }
-
-            var login = usuarioService.Login(usernameTB.Text, passwordTB.Text);
-
-            if(login)
-            {
-                this.Hide();
-                Main main = new Main();
-                main.Show();
             }
             else
             {
-                MessageBox.Show("No se encuentra registrado.", "Lo sentimos...");
+                Form cargandoForm = new Form();
+                cargandoForm.Size = new Size(200, 200);
+                PictureBox gif = new PictureBox();
+                cargandoForm.Controls.Add(gif);
+                gif.Dock = DockStyle.Fill;
+                gif.Image = Properties.Resources.tenor;
+                gif.BackColor = Color.Transparent;
+                gif.SizeMode = PictureBoxSizeMode.StretchImage;
+                cargandoForm.BackColor = Color.AntiqueWhite;
+                cargandoForm.TransparencyKey = Color.AntiqueWhite;
+                cargandoForm.FormBorderStyle = FormBorderStyle.None;
+                cargandoForm.StartPosition = FormStartPosition.CenterScreen;
+                cargandoForm.Show();
+
+                var estado = Task.Run(() => usuarioService.Login(usernameTB.Text, passwordTB.Text));
+
+                estado.Wait();
+
+                if (estado.Result)
+                {
+                    cargandoForm.Close();
+                    this.Hide();
+                    Main main = new Main();
+                    main.Show();
+                }
+                else
+                {
+                    MessageBox.Show("No se encuentra registrado.", "Lo sentimos...");
+                }
+                
+                //if (login)
+                //{
+                //    this.Hide();
+                //    cargandoForm.Close();
+                //    Main main = new Main();
+                //    main.Show();
+                //}
+                //else
+                //{
+                //    MessageBox.Show("No se encuentra registrado.", "Lo sentimos...");
+                //}
             }
         }
 
@@ -358,6 +386,11 @@ namespace PresentationLayer
             this.Controls.Clear();
             InitializeComponent();
             Modify_Componente_Aspect();
+        }
+
+        private void usernamePanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -121,20 +121,26 @@
   <data name="idioma_ingles_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\idioma_ingles_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="WhatsApp Image 2021-05-01 at 3.07.43 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2021-05-01 at 3.07.43 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Captura_de_pantalla_2021-05-01_015212-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura_de_pantalla_2021-05-01_015212-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logout.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Caral" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Caral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp Image 2021-05-01 at 3.07.46 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2021-05-01 at 3.07.46 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sacsayhuman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sacsayhumana.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="obtenido_mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\obtenido_mapa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaralSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaralSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_explorar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_explorar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,9 +150,6 @@
   </data>
   <data name="Fondo_Registro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fondo_Registro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WhatsApp Image 2021-05-01 at 3.07.46 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2021-05-01 at 3.07.46 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ParacasSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ParacasSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,9 +193,6 @@
   <data name="Antiguo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Antiguo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Paracas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Paracas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Nazca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nazca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -204,6 +204,9 @@
   </data>
   <data name="MachuIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MachuIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SacsayhumanaSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SacsayhumanaSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,13 +226,13 @@
   <data name="idioma_icon_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\idioma_icon_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CaralSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CaralSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Paracas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paracas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="obtenido_mapa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\obtenido_mapa11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WhatsApp Image 2021-05-01 at 3.07.43 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2021-05-01 at 3.07.43 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tenor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
